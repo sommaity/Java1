@@ -13,6 +13,7 @@ public class Java8_Practice {
         number.add(5);
         number.add(6);
         number.add(7);
+        number.add(8);
 
         number.stream().filter(x->x%2==0).forEach(System.out::println);
     }
