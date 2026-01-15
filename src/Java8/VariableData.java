@@ -9,7 +9,7 @@ class VariableData {
     //List of Sorted Integer
     public List<Integer> sortedNumbers(){
         List<Integer> numbers=new ArrayList<>();
-        int n=30;
+        int n=10;
         for (int i = 1; i <=n ; i++) {
             numbers.add(i);
         }
@@ -30,7 +30,7 @@ class VariableData {
 
     //List of Strings(Cities)
     public List<String> cities(){
-        return Arrays.asList("Kolkata","Chennai","Mumbai","Thane","Bangalore","Pune","Thiruvantapuram","Thane","Mumbai");
+        return Arrays.asList("Kolkata","Cuba","Chennai","Mumbai","Thane","Bangalore","Pune","Thiruvantapuram","Thane","Mumbai");
     }
 
     //List of Random Strings
